@@ -9,7 +9,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/go-sfox-lib/sfox/filedb"
+	"github.com/fengfenghuo/go-common-lib/filedb"
 )
 
 func newTestLDB() (*filedb.LDBDatabase, func()) {

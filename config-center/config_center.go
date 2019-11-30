@@ -15,7 +15,7 @@ import (
 
 	MQTT "github.com/eclipse/paho.mqtt.golang"
 
-	"github.com/go-sfox-lib/sfox/rpc"
+	"github.com/fengfenghuo/go-common-lib/rpc"
 )
 
 // Topic the topic struct

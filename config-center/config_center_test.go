@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-sfox-lib/sfox/config-center"
+	"github.com/fengfenghuo/go-common-lib/config-center"
 )
 
 func callBack(topicName string, content json.RawMessage) {

@@ -6,7 +6,7 @@ import (
 	"sync"
 	// "time"
 
-	"github.com/go-sfox-lib/sfox/log"
+	"github.com/fengfenghuo/go-common-lib/log"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/filter"

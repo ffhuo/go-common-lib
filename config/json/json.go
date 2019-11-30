@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/go-sfox-lib/sfox/config"
+	"github.com/fengfenghuo/go-common-lib/config"
 )
 
 func init() {

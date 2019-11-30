@@ -4,7 +4,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/go-sfox-lib/sfox/common"
+	"github.com/fengfenghuo/go-common-lib/common"
 )
 
 /*
