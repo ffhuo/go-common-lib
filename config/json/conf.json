@@ -1,0 +1,11 @@
+{
+  "appname": "go-bill-server",
+  "httpport": 38080,
+  "runmode": "dev",
+  "db": {
+    "module": "bee",
+    "link": "root:123456@tcp(localhost:3306)/bill?charset=utf8",
+    "maxIdle": 50,
+    "maxConn": 300
+  }
+}
