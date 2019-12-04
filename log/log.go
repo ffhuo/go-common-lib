@@ -50,8 +50,12 @@ func (logger *Logger) Sync() {
 	logger.log.Sync()
 }
 
-func (logger *Logger) Error(msg string, fields ...zap.Field) {
+func (logger *Logger) ErrorMsg(msg string, fields ...zap.Field) {
 	logger.log.Error(logger.config.ModuleName+msg, fields...)
+}
+
+func (logger *Logger) Error(err error, fields ...zap.Field) {
+	logger.log.Error(logger.config.ModuleName+err.Error(), fields...)
 }
 
 func (logger *Logger) Info(msg string, fields ...zap.Field) {
